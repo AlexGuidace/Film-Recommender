@@ -1,34 +1,34 @@
 // Film Recommender
 
-// Creates a Film object.
+// Creates a Person object.
 
 package reference.domain;
 
-public class Film {
-    private String filmName;
+public class Person {
+    private String name;
     
-    public Film(String name) {
-        this.filmName = name;
+    public Person(String name) {
+        this.name = name;
     }
     
     public String getName() {
-        return this.filmName;
+        return this.name;
     }
     
     @Override 
     public String toString() {
-        return this.filmName;
+        return this.name;
     }
 
     // Has contract with and is used in conjunction with equals().
     @Override
     public int hashCode() {
         int hash = 3;
-        hash = 73 * hash + (this.filmName != null ? this.filmName.hashCode() : 0);
+        hash = 97 * hash + (this.name != null ? this.name.hashCode() : 0);
         return hash;
     }
-    
-    // Used to compare films.    
+
+    // Used to compare people.
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -43,12 +43,12 @@ public class Film {
             return false;
         }
         
-        final Film other = (Film) obj;
+        final Person other = (Person) obj;
         
-        if ((this.filmName == null) ? (other.filmName != null) : !this.filmName.equals(other.filmName)) {
+        if ((this.name == null) ? (other.name != null) : !this.name.equals(other.name)) {
             return false;
         }
         
         return true;
-    }
+    }  
 }
