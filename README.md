@@ -12,7 +12,7 @@ This was one of the many [projects](https://materiaalit.github.io/2013-oo-progra
 
 It utilizes concepts and structures such as inheritance, enum, packages, classes, instance methods, equals() and hashCode() methods, Comparator interfaces, ArrayLists, Collections, Iterators, HashMaps, and copious commenting.
 
-Here's a screenshot of the application output. Click it for a larger version.
+Here's a screenshot of the application output.
 
 <img src="images/Terminal_Output.png">
 
