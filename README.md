@@ -21,14 +21,14 @@ Here's a screenshot of the application output.
 # Project Files
 The following links contain summary overviews of each file used in the project. Please refer to a file's code directly for specific implementation and details regarding that file.
 
-* [Main.java](#Main.java)
-* [RatingRegister.java](#RatingRegister.java)
-* [Reference.java](#Reference.java)
-* [Film.java](#Film.java)
-* [Person.java](#Person.java)
-* [Rating.java](#Rating.java)
-* [FilmComparator.java](#FilmComparator.java)
-* [PersonComparator.java](#PersonComparator.java)
+* [Main.java](#Mainjava)
+* [RatingRegister.java](#RatingRegisterjava)
+* [Reference.java](#Referencejava)
+* [Film.java](#Filmjava)
+* [Person.java](#Personjava)
+* [Rating.java](#Ratingjava)
+* [FilmComparator.java](#FilmComparatorjava)
+* [PersonComparator.java](#PersonComparatorjava)
 
 ## Main.java
 This is where the program runs from. It instantiates Film and Person objects that are then added to a RatingRegister object. This RatingRegister object is then used with a Reference object to make film recommendations. These recommendations are then printed to the terminal.
